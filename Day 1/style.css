@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    background-color: beige;
+    border-radius: px;
+    box-shadow: black;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper {
+    width: 400px;
+    border-radius: 7px;
+    padding: 25px 30px;
+    background-color: #ce796b;
+}
+
+.wrapper header {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: beige;
+}
+
+.wrapper form {
+    margin: 35px 0 20px;
+}
+
+form .row {
+    display: flex;
+    flex-direction: column;
+}
+form .row label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: beige;
+}
+
+form :where(textarea, select, button) {
+    outline: none;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+form .row textarea {
+    resize: none;
+    height: 110px;
+    font-size: 15px;
+    padding: 8px 10px;
+    border: 1px solid burlywood;
+}
+
+form .row .outer {
+    height: 47px;
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid burlywood;
+}
+
+form .row select{
+    font-size: 14px;
+}
+
+form button {
+    height: 52px;
+    margin-top: 10px;
+    background:beige;
+    cursor: pointer;
+    font-size: 17px;
+    color: black;
+}
